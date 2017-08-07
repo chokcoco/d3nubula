@@ -1,0 +1,51 @@
+/**
+ * 1. 根据业务优化合并原 YUI css.reset 版本，去掉极少用的重置标签
+ *
+ * 2. 对不生效标签的 reset 进行去除（例如 div 的 margin 和 padding）
+ *
+ * 3. 对全局字体定义进行优化，兼容中英文，兼容多操作系统
+ *
+ */
+
+body {
+    font-family: tahoma, Arial, Roboto, 'Droid Sans', 'Helvetica Neue', 'Droid Sans Fallback', 'Hiragino Sans GB', 'Heiti SC', sans-self;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body, dl, dd, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+a:hover, a:active, input, button, textarea {
+    outline: 0;
+}
+img {
+    border-style: none;
+}
+/** 适配方案 **/
+/* 540p  50px 默认值 */
+@media only screen {
+  html{font-size:312.5%;} 
+}
+/* 720p  66.7px */
+@media only screen and (min-height:720px) {
+  html{font-size:416.875%;}
+}
+/* 1080p 100px 为基准*/
+@media only screen and (min-height:1080px) {
+  html{font-size:625%;} 
+}
+/* 4k    200px */
+@media only screen and (min-height:2160px) { 
+  html{font-size:1250%;}
+}
