@@ -20,3 +20,7 @@ $ npm run dev
 + the world map created by D3.js
 + the particle animation created by Canvas
 + the data source from [echart Demo](http://echarts.baidu.com/demo.html#scatter-weibo)
+
+## License
+
+MIT
