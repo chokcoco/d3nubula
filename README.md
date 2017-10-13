@@ -23,6 +23,3 @@ $ npm run dev
 + the data source from [echart Demo](http://echarts.baidu.com/demo.html#scatter-weibo)
 + the number counting animation from [codePen](https://codepen.io/Chokcoco/pen/qXVxyw)
 
-## License
-
-MIT
