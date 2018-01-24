@@ -1,10 +1,10 @@
 # d3nubula
 
-A nubula chart created by D3.js && Canvas.
+A nubula chart created by D3 && Canvas.
 
 ## Run
 
-We need a webpack scaffold to run this project.
+Use webpack scaffold to run this project.
 
 ```
 $ npm install
