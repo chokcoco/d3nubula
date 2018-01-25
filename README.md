@@ -2,10 +2,6 @@
 
 A nubula chart created by D3 && Canvas.
 
-## Demo
-
-Look here -- [d3nubula](http://test.tv.video.qq.com/ktweb/Public/nubula/html/index.html?type=activate#wbmp)
-
 ## Run
 
 Use webpack scaffold to run this project.
@@ -16,6 +12,8 @@ $ npm run dev
 ```
 
 ## Demo
+
+Look here -- [d3nubula](http://test.tv.video.qq.com/ktweb/Public/nubula/html/index.html?type=activate#wbmp)
 
 ![demo](https://raw.githubusercontent.com/chokcoco/d3nubula/master/src/images/demo.png)
 
