@@ -13,7 +13,7 @@ $ npm run dev
 
 ## Demo
 
-Look here -- [d3nubula](http://test.tv.video.qq.com/ktweb/Public/nubula/html/index.html?type=activate#wbmp)
+[d3nubula Demo](http://test.tv.video.qq.com/ktweb/Public/nubula/html/index.html?type=activate#wbmp)
 
 ![demo](https://raw.githubusercontent.com/chokcoco/d3nubula/master/src/images/demo.png)
 
